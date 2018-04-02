@@ -13,7 +13,7 @@
           Tenets
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a *ngFor="let tenent of tenents; let i = index" class="dropdown-item" href="javascript:void(0)" [routerLink]="tenent.route"><strong>Tenet {{i + 1}}:</strong> {{tenent.title}}</a>          
+            <a *ngFor="let tenet of tenets; let i = index" class="dropdown-item" href="javascript:void(0)" [routerLink]="tenet.route"><strong>Tenet {{i + 1}}:</strong> {{tenet.title}}</a>          
         </div>
       </li>
       <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">

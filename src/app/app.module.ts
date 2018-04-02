@@ -14,14 +14,13 @@ import { TraumaComponent } from './tenets/trauma/trauma.component';
 import { SpiritualityComponent } from './tenets/spirituality/spirituality.component';
 import { TaboosComponent } from './tenets/taboos/taboos.component';
 import { FamilyComponent } from './tenets/family/family.component';
-import { tenents } from './types/tenents';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   {
-    path: 'tenent',
+    path: 'tenet',
     children: [
       {path: 'authentic-life', component: AuthenticLifeComponent}, 
       {path: 'morality', component: MoralityComponent}, 

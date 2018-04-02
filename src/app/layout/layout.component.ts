@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { tenents } from '../types/tenents';
+import { tenets } from '../types/tenets';
 
 @Component({
   selector: 'app-layout',
@@ -7,7 +7,7 @@ import { tenents } from '../types/tenents';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit {
-  public tenents = tenents;
+  public tenets = tenets;
   constructor() { }
 
   ngOnInit() {
