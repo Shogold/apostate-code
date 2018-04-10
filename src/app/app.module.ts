@@ -14,6 +14,7 @@ import { TraumaComponent } from './tenets/trauma/trauma.component';
 import { SpiritualityComponent } from './tenets/spirituality/spirituality.component';
 import { TaboosComponent } from './tenets/taboos/taboos.component';
 import { FamilyComponent } from './tenets/family/family.component';
+import { PerfectionComponent } from './tenets/perfection/perfection.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -31,6 +32,7 @@ const appRoutes: Routes = [
       {path: 'spirituality', component: SpiritualityComponent}, 
       {path: 'taboos', component: TaboosComponent}, 
       {path: 'family', component: FamilyComponent}, 
+      {path: 'perfection', component: PerfectionComponent}, 
     ]
   },
 ];
@@ -49,7 +51,8 @@ const appRoutes: Routes = [
     TraumaComponent,
     SpiritualityComponent,
     TaboosComponent,
-    FamilyComponent
+    FamilyComponent,
+    PerfectionComponent
   ],
   imports: [
     BrowserModule,
